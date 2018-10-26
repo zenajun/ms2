@@ -1,0 +1,77 @@
+.top-nav {
+  display: flex;
+  padding-top: 100px;
+}
+
+.main-menu {
+  &__list {
+    display: flex;
+    list-style: none;
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 635px;
+    justify-content: space-between;
+    &__list-item {
+      position: relative;
+      &__link {
+        text-decoration: none;
+        color: #888888;
+        padding: 15px;
+        &:hover {
+          color: #333333;
+          &::before {
+            content: "";
+            height: 2px;
+            width: calc(100% - 30px);
+            position: absolute;
+            top: 30px;
+            background: #d5be51;
+          }
+          svg path {
+            fill: #333333;
+          }
+        }
+      }
+    }
+  }
+  svg {
+    width: 11px;
+  }
+}
+
+.sub-menu {
+  display: flex;
+  position: absolute;
+  &__heading {
+    font-size: 2.4rem;
+    font-weight: 400;
+    transform: rotate(-90deg);
+    // transform-origin: 100% 100%;
+    position: absolute;
+
+  }
+  &__list {
+    list-style: none;
+    font-size: 1.6rem;
+  }
+}
+
+#shop:hover > div {
+  display: flex;
+
+}
+
+div.sub-menu {
+  // display: none;
+  border: 1px solid red;
+  transform: translateX(-50%);
+  padding: 25px;
+}
+
+.sub-menu > div {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  align-items: flex-start;
+}
+

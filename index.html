@@ -5,14 +5,117 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Welcome to Maxshop</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="public/styles/style.css">
 </head>
 <body>
-	<div class="wrapper">		
-		<h1>Hello World!</h1>
+  <header>
+		<!-- TOP MENU -->
+		<div class="wrapper top-nav">
+			<div>
+				<img src="public/assets/maxshop.png" alt="Maxshop logo">
+			</div>
+			<nav class="main-menu">
+				<ul class="main-menu__list">
+					<li class="main-menu__list__list-item"><a href="#" class="main-menu__list__list-item__link">Home</a></li>
+					<li class="main-menu__list__list-item" id="shop"><a href="#"  class="main-menu__list__list-item__link">Shop <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path id="arrow" fill="#888888" d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/></g></svg></a>
+						<div class="sub-menu">
+							<div>
+								<h2 class="sub-menu__heading">Clothing</h2>
+								<ul class="sub-menu__list">
+									<li><a href="#">Shirts</a></li>
+									<li><a href="#">Tops</a></li>
+									<li><a href="#">Outerwear</a></li>
+									<li><a href="#">Bottoms</a></li>
+									<li><a href="#">Denim</a></li>
+									<li><a href="#">Swim</a></li>
+								</ul>
+							</div>
+							<div>
+								<h2 class="sub-menu__heading">Hand Bag</h2>
+								<ul class="sub-menu__list">
+									<li><a href="#">Work</a></li>
+									<li><a href="#">Weekend</a></li>
+									<li><a href="#">Backpacks</a></li>
+									<li><a href="#">Wallets</a></li>
+									<li><a href="#">Work</a></li>
+								</ul>
+							</div>
+							<div>
+								<h2 class="sub-menu__heading">Shoes</h2>
+								<ul class="sub-menu__list">
+									<li><a href="#">Sneakers</a></li>
+									<li><a href="#">Casual</a></li>
+									<li><a href="#">Boots</a></li>
+									<li><a href="#">Shoe Care</a></li>
+								</ul>
+							</div>
+							<div>
+								<h2 class="sub-menu__heading">Accessories</h2>
+								<ul class="sub-menu__list">
+									<li><a href="#">Sunglasses</a></li>
+									<li><a href="#">Watches</a></li>
+									<li><a href="#">Jewelry</a></li>
+									<li><a href="#">Hats, Scarves & Gloves</a></li>
+									<li><a href="#">Ties</a></li>
+									<li><a href="#">Underwear & Socks</a></li>
+									<li><a href="#">Grooming Products</a></li>
+									<li><a href="#">Belts</a></li>
+								</ul>
+							</div>
+						</div>						
+					</li>
+					<li class="main-menu__list__list-item"><a href="#" class="main-menu__list__list-item__link">Lookbook</a></li>
+					<li class="main-menu__list__list-item"><a href="#" class="main-menu__list__list-item__link">Contact</a></li>
+					<li class="main-menu__list__list-item"><a href="#" class="main-menu__list__list-item__link">Blog</a></li>
+				</ul>
+			</nav>
+			<form class="country-selection">
+				<label for="gb"><img src="public/assets/uk-gb.jpg" alt="UK - Great Britain"><span>GB</span></label>
+				<input type="radio" id="gb" name="country"/>
+				
+				<!-- <label for="usa"><img src="public/assets/usa.jpg" alt="USA"><span>US</span></label>
+				<input type="radio" id="usa" name="country"/>
+					
+				<label for="fr"><img src="public/assets/france.jpg" alt="France"><span>FR</span></label>
+				<input type="radio" id="fr" name="country" />
+
+				<label for="de"><img src="public/assets/germany.jpg" alt="Germany"><span>DE</span></label>
+				<input type="radio" id="de" name="country"/>
+
+				<label for="br"><img src="public/assets/brazil.jpg" alt=""><span>BR</span></label>
+				<input type="radio" id="br" name="country" /> -->
+			</form>
+
+			<div class="shopping-nav">
+				<ul>
+					<li><a href="#">Search</a></li>
+					<li><a href="#">person</a></li>
+					<li><a href="#"><img src="public/assets/shopping-bag.svg" alt="" class="bag"><span>5</span></a></li>
+				</ul>
+			</div>
+		</div> <!-- Top menu ends -->
+
+
+		<!-- Left menu -->
+		<!-- <div>
+			<p>26/02/2016</p>
+			<h1>Summer Collection 2016"</h1>
+			<h2>Bring glamour to your wardrobe</h2>
+			<p>01</p>
+			<a href="#">View more</a>
+			<div>line</div>
+			<div>line</div>
+			<div>line</div>
+		</div>
+		<div>img with arrows</div> -->
+	</header>
+
+<!-- <footer>
+	<div>
+		<p>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a>, <a href="https://www.flaticon.com/authors/lucy-g" title="Lucy G">Lucy G</a> & <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
 	</div>
-
-
+</footer> -->
 	<script src="public/scripts/main.js"></script>
 </body>
 </html>
